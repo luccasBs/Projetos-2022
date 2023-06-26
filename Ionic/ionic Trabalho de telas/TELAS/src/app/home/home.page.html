@@ -1,0 +1,45 @@
+<!-- "Titulo" -->
+<ion-header [translucent]="true">
+ 
+  <ion-toolbar color ="medium">
+    <ion-title >
+      Cadastro: 
+    </ion-title>
+  </ion-toolbar>
+
+  
+  <!-- "Tela de cadastro" -->
+</ion-header >
+<ion-content [fullscreen]="true" color="primary">
+  <ion-header collapse="condense">
+    <ion-toolbar color="medium">
+      <ion-title size="large" > Cadastro: </ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-button  shape="round" color="dark" (click)="Entrada()"> cadastrar produto </ion-button>
+  
+
+<!-- "ediçao" -->
+  <div>
+    <ion-item color="primary">
+      <ion-input [(ngModel)]="Mudancaid"></ion-input>
+    </ion-item>
+  </div>
+
+
+  <div>
+    <ion-item color="primary">
+      <ion-input [(ngModel)]="MudancaN"></ion-input>
+    </ion-item>
+  </div>
+
+  <div>
+    <ion-item color="primary">
+      <ion-input [(ngModel)]="Mudancafor"></ion-input>  
+    </ion-item>
+  </div>
+
+  
+    <ion-button shape="round" color="primary"(click)="Editar()"> Editar </ion-button>
+
+</ion-content>

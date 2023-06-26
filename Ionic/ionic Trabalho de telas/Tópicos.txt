@@ -1,0 +1,6 @@
+Angular
+AngularJS 
+código-fonte aberto e front-end baseado em TypeScrip
+aplicações web SPA(aplicativo de página única)
+aplicações mobile (com o suporte do Ionic, por exemplo) 
+aplicações desktop (com o suporte do Electron).

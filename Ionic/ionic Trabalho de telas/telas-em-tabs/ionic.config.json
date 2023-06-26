@@ -1,0 +1,7 @@
+{
+  "name": "Telas em Tabs",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

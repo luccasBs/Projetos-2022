@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start" defaltHerf="home">
+      <ion-back-button text="Editar">
+      </ion-back-button>
+    </ion-buttons>
+    <ion-title>confirmação</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" color="warning">
+    <ion-toolbar color="medium">
+      <ion-title> Dados: </ion-title>
+    </ion-toolbar> 
+<label>
+  <div>
+      <p>{{valor}}</p>
+      <p>{{valor}}</p>
+      <p>{{valor}}</p>
+    
+  </div>
+</label>
+
+ <!-- <ion-button  shape="round" color="dark" (click)="Volta()"> Confirmar </ion-button>-->
+<ion-button  shape="round" color="dark" (click)="ida()"> Continuar </ion-button>
+</ion-content>
